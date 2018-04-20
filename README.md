@@ -28,4 +28,22 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="0000", ATTRS{idProduct}=="0001", MODE:="666"
 KERNEL=="hidraw*", ATTRS{idVendor}=="0000", ATTRS{idProduct}=="0001", MODE="0666", GROUP="plugdev"
 ```
 
-Connect the charger to an USB port and start the program.
+Start the software and connect the charger, the interface will be enabled when charger's interface is up (it may take a few seconds, the MCU is a bit slow in that aspect).
+
+What's working
+--------------
+- [x] device information
+- [x] system settings
+- [x] starting / stopping charging with all available options
+- [x] toggable charging charts
+- [x] displaying charging errors
+- [x] notification after charging complete
+
+TODO / what to expect in the future
+-----------------------------------
+- [ ] saving charging profiles for quick use
+- [ ] battery datasheet / charging profile database
+- [ ] charging data export (to `csv`)
+- [ ] pause / resume charging
+- [ ] SMS / e-mail notifications
+
