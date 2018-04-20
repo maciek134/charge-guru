@@ -47,3 +47,4 @@ TODO / what to expect in the future
 - [ ] pause / resume charging
 - [ ] SMS / e-mail notifications
 - [ ] touch interface?
+- [ ] Windows build if I figure out how to make CMake work in there
