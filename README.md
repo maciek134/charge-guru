@@ -46,4 +46,4 @@ TODO / what to expect in the future
 - [ ] charging data export (to `csv`)
 - [ ] pause / resume charging
 - [ ] SMS / e-mail notifications
-
+- [ ] touch interface?
