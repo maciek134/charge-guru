@@ -3,6 +3,8 @@ ChargeGuru
 This is an application to control SkyRC B6* chargers. It's a replacement for the ChargeMaster application
 provided by the manufacturer, which is badly designed and doesn't work on GNU/Linux. It's written in Qt5.
 
+![screenshot](https://i.imgur.com/SSo5eYT.png)
+
 Installation
 ------------
 Dependencies:
