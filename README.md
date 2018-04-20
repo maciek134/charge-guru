@@ -14,7 +14,7 @@ qt5 qtcharts libusb-1.0 libb6
 
 Grab `libb6` from https://github.com/maciek134/libb6.
 
-Run these commands compile the software:
+Run these commands to compile the software:
 ```bash
 $ mkdir build
 $ cd build
